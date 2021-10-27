@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css"/>
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+
+
+    <link rel="stylesheet" href="assets/css/css.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <script src="assets/js.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+    <title>Title</title>
+</head>
+<body onload="writetext()">
+<div class="code">
+    <div id="nothing">
+        <h2><font new="" size="4" color="#00ff00" face="Courier">
+            <center><br>...</center>
+        </font></h2>
+        <font new="" size="3" color="#00ff00" face="Courier">
+            <center>...</center>
+            <br><br>
+        </font>
+        <font new="" size="3" color="#00ff00" face="Courier">
+            <center>...</center>
+            <br><br>
+        </font>
+        <font color="#00ffff" face="Courier">
+            <left>...</left>
+        </font>
+        <br>
+        <span style="color: #00ffff; font-family: Courier,serif; ">...</span>
+        <font color="#00ffff" face="Courier">...</font>
+        <font color="#00ffff" face="Courier">...</font>
+        <font color="#00ffff" face="Courier">...</font>
+        <font color="#00ffff" face="Courier">...</font>
+        <font color="#00ffff" face="Courier">...</font>
+    </div>
+</div>
+
+<div class="page_one">
+
+    <div class="menu">
+        <ul>
+            <li id="#ItemOne" onclick="ItemOneClick()">
+                <i id="#circleIconItemOne" class="fa fa-circle colorRed"></i>
+                <a href="#">Bogen Studio</a>
+            </li>
+            <li id="#ItemTwo" onclick="ItemTwoClick()">
+                <i id="#circleIconItemTwo" class="fa fa-circle colorRed"></i>
+
+                <a href="#our_services">OurServices</a>
+            </li>
+            <li id="#ItemThree" onclick="ItemThreeClick()">
+                <i id="#circleIconItemThree" class="fa fa-circle colorRed"></i>
+
+                <a href="#WhoWeAre">WhoWeAre</a>
+            </li>
+            <li id="#ItemFore" onclick="ItemForeClick()">
+                <i id="#circleIconItemFore" class="fa fa-circle colorRed"></i>
+
+                <a href="#OurProjects">OurProjects</a>
+            </li>
+            <li id="#ItemFive" onclick="ItemFiveClick()">
+                <i id="#circleIconItemFive" class="fa fa-circle colorRed"></i>
+
+                <a href="#ContactUs">ContactUs</a>
+            </li>
+        </ul>
+    </div>
+    <div id="OurProjects" class="middle">
+        <div class="vr_item">
+
+
+            <model-viewer style="width: 500px;height: 580px;" class="ItemViewModel" camera-controls=""
+                          alt="A 3D model of an astronaut"
+                          src="assets/img/sample2.glb"
+                          data-js-focus-visible="" ar-status="not-presenting">
+
+            </model-viewer>
+
+
+        </div>
+        <div class="img_text">
+            <img src="assets/img/text.png" alt="">
+        </div>
+
+    </div>
+    <div id="our_services" class="our_services">
+        <div class="top_item">
+            <img src="assets/img/vr.png">
+            <div class="top_item_text">
+                <p style="font-size: 30px;font-family: 'segoeuibold';color: #CB181F;">OUR SERVICES</p>
+                <p style="font-family: 'segoeui';font-size: 15px;">VIRTUAL REALITY SOLUTIONS</p>
+            </div>
+        </div>
+        <div class="button_item">
+            <p style="font-family: 'segoeui';">Unique capabilities, Astonishing Art design meet together to give you
+                tools to fulfill what needs in your
+                business, industry, or operations. Our visual and interactive solutions let you be more efficient,
+                productive, and innovative.</p>
+            <p style="margin-top: 25px;font-weight: bold;font-family: 'segoeuibold';">We programed your dreams.</p>
+        </div>
+    </div>
+    <img id="WhoWeAre" class="img_item" src="assets/img/img.png">
+    <img src="assets/img/img_1.png">
+
+
+    <div id="ContactUs" class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="news-slider" class="owl-carousel">
+                    <div class="post-slide">
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="#">VIRTUAL REALITY TRAINING STUDIO </a>
+                            </h3>
+                            <p class="post-description">Simply import your assets, design your training scenarios and
+                                start to train your staff in three different versions of multiplayer VR, single player
+                                VR and Desktop.</p>
+                            <a href="#" class="read-more">Want to know more </a>
+                        </div>
+                    </div>
+                    <div class="post-slide">
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="#">MUSEUM SOLUTIONS</a>
+                            </h3>
+                            <p class="post-description">Do it Virtual,
+                                engaging the visitors with new information systems through web, application, Augmented
+                                reality and virtual reality</p>
+                            <a href="#" class="read-more">Want to know more </a>
+                        </div>
+                    </div>
+                    <div class="post-slide">
+                        <div class="post-content">
+                            <h3 class="post-title">
+                                <a href="#">VIRTUAL REALITY TRAINING STUDIO </a>
+                            </h3>
+                            <p class="post-description">Simply import your assets, design your training scenarios and
+                                start to train your staff in three different versions of multiplayer VR, single player
+                                VR and Desktop.</p>
+                            <a href="#" class="read-more">Want to know more </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<img style="width: 100%;margin: 5px;" src="assets/img/img_2.png">
+
+
+</body>
+</html>
